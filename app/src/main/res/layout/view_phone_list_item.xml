@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/id_phone_title"
+        android:text="A"
+        android:textSize="18sp"
+        android:textColor="#444444"
+        android:paddingLeft="10dp"
+        android:background="#dedede"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <View
+        android:background="#dedede"
+        android:layout_width="match_parent"
+        android:layout_height="0.333dip"/>
+    <TextView
+        android:id="@+id/id_phone_name"
+        android:text="阿妈"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:textColor="#3399ff"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

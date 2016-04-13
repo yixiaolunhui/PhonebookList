@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dalong.phonebooklist.MainActivity">
+
+    <com.dalong.phonebooklist.view.PinnedSectionListView
+        android:id="@+id/dalong_phone_list"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.dalong.phonebooklist.view.MyLetterListView
+        android:id="@+id/dalong_letter_view"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:background="#00000000"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
