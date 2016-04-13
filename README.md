@@ -4,4 +4,4 @@
 3、字母快捷索引位置
 
 #效果图
-
+![image](https://github.com/dalong982242260/PhonebookList/blob/master/phone.gif)
